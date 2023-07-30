@@ -29,7 +29,7 @@ function App() {
     <Router>
       <div className = "image-div inline-div">
         <NavLink to = "/" className = "link-style" id = "home-link">
-          <img src = {LogoImage} width = "100%" height = "100%"></img>
+          <img src = {LogoImage} width = "100%" height = "100%"></img> 
         </NavLink>
       </div>
       <div className = "inline-div">
