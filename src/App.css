@@ -37,12 +37,15 @@
   }
 }
 
+.list-div {
+  float: right;
+}
+
 .list-style {
   list-style-type: none;
-  float: right;
   text-align: left;
   line-height: 35px;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 
 .link-style {
@@ -60,14 +63,13 @@
 }
 
 .inline-div {
-  display:inline-block;
+  display: inline-block;
+  padding: 20px;
 }
 
 .image-div {
   width: 80%;
-  float: left;
-  margin-left: 50px;
-  margin-top: 50px;
+  float: left; 
 }
 
 body {
@@ -79,4 +81,18 @@ body {
   text-decoration: underline;
   text-decoration-color: #c0c0c0;
   text-underline-offset: 10px;
+}
+
+.header-content-separator {
+  margin-top: 50px;
+}
+
+.separator {
+  margin: 0 125px;
+}
+
+.parent-header {
+  display: inline-block;
+  margin: 0 125px;
+  margin-top: 50px;
 }
