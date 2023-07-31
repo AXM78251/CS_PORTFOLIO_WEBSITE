@@ -39,7 +39,7 @@
 
 .list-div {
   float: right;
-  margin-left: 75px;
+  margin-left: 8%;
 }
 
 .list-style {
@@ -61,11 +61,6 @@
   text-decoration-color: #c0c0c0;
   text-underline-offset: 10px;
   color: #dc143c;
-}
-
-.inline-div {
-  /*display: inline-block;*/
-  /*padding: 20px;*/
 }
 
 .image-div {
@@ -97,4 +92,39 @@ body {
   display: inline-flex;
   margin: 0 125px;
   margin-top: 50px;
+}
+
+.footer-parent {
+  display: flex;
+  margin: 0 125px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-div-logos {
+  margin-top: 3%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  padding-right: 1.25%;
+  padding-left: 1.25%;
+}
+
+.footer-div-logos img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-div-logos:first-child {
+  padding-left: 0%;
+  padding-right: 1.25%;
+}
+
+.footer-div-logos:last-child {
+  padding-right: 0%;
+}
+
+.footer-div-logos:hover {
+  transform: scale(2);
 }

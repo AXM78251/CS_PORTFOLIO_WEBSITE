@@ -1,6 +1,9 @@
 import './App.css';
 import LogoImage from "./logo.jpeg";
-import { BrowserRouter as Router, Routes, Route, Link, NavLink} from 'react-router-dom';
+import LinkedInLogo from "./LI-In-Bug.png";
+import InstagramLogo from "./Instagram_Glyph_Gradient.png";
+import GithubLogo from "./github-mark.png";
+import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
 
 import HomePage from "./HomePage";
 import Resume from "./ResumePage";
@@ -28,12 +31,12 @@ function App() {
     </div>*/
     <Router>
       <header className = "parent-header">
-        <div className = "image-div inline-div">
+        <div className = "image-div">
           <NavLink to = "/" className = "link-style" id = "home-link">
-            <img src = {LogoImage} width = "100%" height = "100%"></img> 
+            <img src = {LogoImage} width = "100%" height = "100%" alt = "My Logo"></img> 
           </NavLink>
         </div>
-        <div className = "list-div inline-div">
+        <div className = "list-div">
           <nav>
             <ul className = "list-style">
               <li>
@@ -60,13 +63,37 @@ function App() {
         <hr className = "separator"></hr>
       </div>
 
-      <Routes>
-            <Route exact path = "/" element = {<HomePage />} />
-            <Route path = "/about" element = {<AboutPage />} />
-            <Route path = "/cs_portfolio" element = {<CsPortfolio/>} />
-            <Route path = "/resume" element = {<Resume/>}/>
-            <Route path = "/contact" component = {<Contact/>} />
-          </Routes>
+      <div className = "main-body-frame">
+        <Routes>
+          <Route exact path = "/" element = {<HomePage />} />
+          <Route path = "/about" element = {<AboutPage />} />
+          <Route path = "/cs_portfolio" element = {<CsPortfolio/>} />
+          <Route path = "/resume" element = {<Resume/>}/>
+          <Route path = "/contact" component = {<Contact/>} />
+        </Routes>
+      </div>
+
+      <div className = "header-content-separator">
+        <hr className = "separator"></hr>
+      </div>
+
+      <footer className = "footer-parent">
+        <div className = "footer-div-logos">
+          <a href = "https://www.linkedin.com/in/anthony-salinas-suarez/" target = "_blank" rel="noopener noreferrer">
+            <img src = {LinkedInLogo} alt = "Linked In Logo"/>
+          </a>
+        </div>
+        <div className = "footer-div-logos">
+          <a href = "https://github.com/AXM78251" target = "_blank" rel="noopener noreferrer">
+            <img src = {GithubLogo} alt = "Github Logo"/>
+          </a>
+        </div>
+        <div className = "footer-div-logos">
+          <a href = "https://www.instagram.com/anthonyyy._.s/" target = "_blank" rel = "noopener noreferrer">
+            <img src = {InstagramLogo} alt = "Instagram Logo"/>
+          </a>
+        </div>
+      </footer>
     </Router>
   );
 }
