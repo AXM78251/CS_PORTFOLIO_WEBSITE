@@ -109,6 +109,7 @@ body {
   position: relative;
   padding-right: 1.25%;
   padding-left: 1.25%;
+  transition: transform 0.3s ease;
 }
 
 .footer-div-logos img {
