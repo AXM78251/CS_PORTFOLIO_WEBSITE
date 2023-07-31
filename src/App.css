@@ -97,7 +97,6 @@ body {
 .footer-parent {
   display: flex;
   margin: 0 125px;
-  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
 }
@@ -129,3 +128,83 @@ body {
 .footer-div-logos:hover {
   transform: scale(2);
 }
+
+.footer-contact-info {
+  display: flex;
+  margin: 0 125px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #708090;
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+}
+
+.main-body-frame {
+  margin: 0 125px;
+  display: flex;
+}
+
+.introduction {
+  display: inline;
+  font-family: Montserrat;
+  color: #708090;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.polaroid-container {
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  transform: rotate(-3deg);
+}
+
+.polaroid-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.polaroid-container .polaroid-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.polaroid-left {
+  float: left;
+}
+
+.polaroid-right {
+  float: right;
+  transform: rotate(3deg);
+}
+
+.polaroid-images {
+  display: flex;
+  justify-content: center;
+}
+
+.double-stacked {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+.flip-rotation-image {
+  transform: rotate(3deg);
+}
+

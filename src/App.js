@@ -46,7 +46,7 @@ function App() {
                 <NavLink to = "/about" className = "link-style" id = "about-page">About</NavLink>
               </li>
               <li>
-                <NavLink to = "/cs_portfolio" className = "link-style">CS Portfolio</NavLink>
+                <NavLink to = "/cs_portfolio" className = "link-style">Portfolio</NavLink>
               </li>
               <li>
                 <NavLink to = "/resume" className = "link-style">Resume</NavLink>
@@ -92,6 +92,24 @@ function App() {
           <a href = "https://www.instagram.com/anthonyyy._.s/" target = "_blank" rel = "noopener noreferrer">
             <img src = {InstagramLogo} alt = "Instagram Logo"/>
           </a>
+        </div>
+      </footer>
+
+      <footer className = "footer-contact-info">
+        <div className = "contact-info">
+          <h4>Berkeley Email: anthonysalinas78251@berkeley.edu</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>|</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>Personal Email: anthonysalinas78251@gmail.com</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>|</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>Phone: 619.384.8022</h4>
         </div>
       </footer>
     </Router>
