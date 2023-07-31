@@ -53,19 +53,20 @@ function App() {
               </li>
             </ul>
           </nav>
-          <Routes>
-            <Route exact path = "/" element = {<HomePage />} />
-            <Route path = "/about" element = {<AboutPage />} />
-            <Route path = "/cs_portfolio" element = {<CsPortfolio/>} />
-            <Route path = "/resume" element = {<Resume/>}/>
-            <Route path = "/contact" component = {<Contact/>} />
-          </Routes>
         </div>
       </header>
 
       <div className = "header-content-separator">
         <hr className = "separator"></hr>
       </div>
+
+      <Routes>
+            <Route exact path = "/" element = {<HomePage />} />
+            <Route path = "/about" element = {<AboutPage />} />
+            <Route path = "/cs_portfolio" element = {<CsPortfolio/>} />
+            <Route path = "/resume" element = {<Resume/>}/>
+            <Route path = "/contact" component = {<Contact/>} />
+          </Routes>
     </Router>
   );
 }

@@ -39,6 +39,7 @@
 
 .list-div {
   float: right;
+  margin-left: 75px;
 }
 
 .list-style {
@@ -63,13 +64,14 @@
 }
 
 .inline-div {
-  display: inline-block;
-  padding: 20px;
+  /*display: inline-block;*/
+  /*padding: 20px;*/
 }
 
 .image-div {
-  width: 80%;
+  width: 75%;
   float: left; 
+  margin-left: 50px;
 }
 
 body {
@@ -92,7 +94,7 @@ body {
 }
 
 .parent-header {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 125px;
   margin-top: 50px;
 }
