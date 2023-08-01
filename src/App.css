@@ -151,12 +151,16 @@ body {
   display: flex;
 }
 
-.introduction {
-  display: inline;
-  font-family: Montserrat;
-  color: #708090;
-  flex-wrap: wrap;
-  flex-direction: row;
+.main-home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.polaroid-images {
+  display: flex;
+  justify-content: center;
+  margin: 0 125px;
+  margin-bottom: 3%;
 }
 
 .polaroid-container {
@@ -192,11 +196,6 @@ body {
   transform: rotate(3deg);
 }
 
-.polaroid-images {
-  display: flex;
-  justify-content: center;
-}
-
 .double-stacked {
   display: inline-flex;
   flex-direction: column;
@@ -207,4 +206,42 @@ body {
 .flip-rotation-image {
   transform: rotate(3deg);
 }
+
+.introduction {
+  font-family: Montserrat;
+  color: #708090;
+}
+
+.introduction h1{
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.introduction h2 {
+  line-height: 35px;
+  margin-bottom: 3%;
+}
+
+.spotify-playlist {
+  margin: 0 125px;
+  display: inline;
+  font-family: Montserrat;
+  color: #708090;
+  justify-content: center;
+  margin-bottom: -1.5%;
+}
+
+.spotify-playlist h2 {
+  text-align: center;
+}
+
+.spotify-playlist iframe {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  width: 75%;
+  height: 80px;
+}
+
+/*style="border-radius:12px"*/
 
