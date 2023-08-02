@@ -10,7 +10,7 @@ function HomePage() {
                 <h1 id = "welcome-h1">
                     Welcome to my Website!
                 </h1>
-                <h2>
+                <h2 id = "intro-to-website">
                     I am glad to have you here! I made this website with the hopes of sharing a bit about myself and to
                     showcase the different skills and experiences I have accumulated as an Electrical Engineering & Computer Sciences (EECS) student at the University of California, Berkeley.
                     Feel free to look around and explore to learn more about me and stay tuned for future updates to this website!

@@ -154,6 +154,13 @@ body {
 .main-home-page {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.main-about-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .polaroid-images {
@@ -243,6 +250,34 @@ body {
   border: none;
   width: 75%;
   height: 80px;
+}
+
+.info-about-me {
+  display: flex;
+  width: 100%;
+}
+
+.current-occupation {
+  display: flex;
+}
+
+.info-child {
+  flex: 1;
+}
+
+.info-child h2 {
+  font-family: Montserrat;
+  color: #708090;
+  font-size: 20px;
+}
+
+#eecs-link {
+  color: #003262;
+  text-decoration: none;
+}
+
+#eecs-link:active {
+  color: #fdb515;
 }
 
 /*style="border-radius:12px"*/
