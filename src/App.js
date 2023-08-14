@@ -32,27 +32,38 @@ function App() {
     <Router>
       <header className = "parent-header">
         <div className = "image-div">
-          <NavLink to = "/" className = "link-style" id = "home-link">
-            <img src = {LogoImage} width = "100%" height = "100%" alt = "My Logo"></img> 
+          <NavLink to = "/" className = "link-style-nav" id = "home-link">
+            <img src = {LogoImage} width = "100%" alt = "My Logo"></img> 
           </NavLink>
         </div>
         <div className = "list-div">
           <nav>
             <ul className = "list-style">
               <li>
-                <NavLink to = "/" className = "link-style" id = "home-link">Home</NavLink>
+                <NavLink to = "/" className = "link-style-nav" id = "home-link">Home</NavLink>
               </li>
               <li>
-                <NavLink to = "/about" className = "link-style" id = "about-page">About</NavLink>
+                <NavLink to = "/about" className = "link-style-nav" id = "about-page">About</NavLink>
               </li>
               <li>
-                <NavLink to = "/cs_portfolio" className = "link-style">Portfolio</NavLink>
+                <NavLink to = "/cs_portfolio" className = "link-style-nav" id = "portfolio-link">Portfolio</NavLink>
+                <ul className = "portfolio-section-redirect">
+                  <li>
+                    <a href = "#coursework-sec" className = "section-style">Coursework</a>
+                  </li>
+                  <li>
+                    <a href = "#experience-sec" className = "section-style">Experience</a>
+                  </li>
+                  <li>
+                    <a href = "#projects-sec" className = "section-style">Projects</a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <NavLink to = "/resume" className = "link-style">Resume</NavLink>
+                <NavLink to = "/resume" className = "link-style-nav">Resume</NavLink>
               </li>
               <li>
-                <NavLink to = "/contact" className = "link-style">Contact</NavLink>
+                <NavLink to = "/contact" className = "link-style-nav">Contact</NavLink>
               </li>
             </ul>
           </nav>
@@ -73,7 +84,7 @@ function App() {
         </Routes>
       </div>
 
-      <div className = "header-content-separator">
+      <div className = "footer-content-separator">
         <hr className = "separator"></hr>
       </div>
 

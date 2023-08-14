@@ -38,8 +38,7 @@
 }
 
 .list-div {
-  float: right;
-  margin-left: 8%;
+  margin-left: 7%;
 }
 
 .list-style {
@@ -49,14 +48,14 @@
   /*margin-top: 100px;*/
 }
 
-.link-style {
+.link-style-nav {
   text-decoration: none;
   color: #708090;
   font-family: Montserrat;
   font-size: 20px;
 }
 
-.link-style:hover {
+.link-style-nav:hover {
   text-decoration: underline;
   text-decoration-color: #c0c0c0;
   text-underline-offset: 10px;
@@ -64,6 +63,9 @@
 }
 
 .image-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 75%;
   float: left; 
   margin-left: 50px;
@@ -81,7 +83,13 @@ body {
 }
 
 .header-content-separator {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.footer-content-separator {
+  margin-top: 2%;
 }
 
 .separator {
@@ -89,7 +97,7 @@ body {
 }
 
 .parent-header {
-  display: inline-flex;
+  display: flex;
   margin: 0 125px;
   margin-top: 50px;
 }
@@ -148,7 +156,6 @@ body {
 
 .main-body-frame {
   margin: 0 125px;
-  display: flex;
 }
 
 .main-home-page {
@@ -161,13 +168,19 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
+}
+
+.main-portfolio-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .polaroid-images {
   display: flex;
   justify-content: center;
   margin: 0 125px;
-  margin-bottom: 3%;
 }
 
 .polaroid-container {
@@ -222,7 +235,7 @@ body {
 
 .introduction h1{
   text-align: center;
-  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .introduction h2 {
@@ -236,8 +249,6 @@ body {
   font-family: Montserrat;
   color: #708090;
   justify-content: center;
-  margin-top: -3%;
-  margin-bottom: -1.5%;
 }
 
 .spotify-playlist h2 {
@@ -252,6 +263,14 @@ body {
   height: 80px;
 }
 
+.about-separator {
+  justify-self: center;
+  width: 50%;
+  text-align: center;
+  color: #dc143c;
+  font-family: Montserrat;
+}
+
 .info-about-me {
   display: flex;
   width: 100%;
@@ -263,12 +282,28 @@ body {
 
 .info-child {
   flex: 1;
+  margin-left: auto;
+}
+
+.info-child-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-child h1 {
+  text-align: center;
+  color: #708090;
+  font-family: Montserrat;
+  margin-top: 0%;
 }
 
 .info-child h2 {
   font-family: Montserrat;
   color: #708090;
   font-size: 20px;
+  line-height: 130%;
 }
 
 #eecs-link {
@@ -280,5 +315,48 @@ body {
   color: #fdb515;
 }
 
-/*style="border-radius:12px"*/
+#modalai-link {
+  color: #046318;
+  text-decoration: none;
+}
+
+.coursework-section {
+  width: 50%;
+}
+
+.experience-section {
+  width: 50%;
+}
+
+.personal-projects-section {
+  width: 50%;
+}
+
+.portfolio-section-headers {
+  color: #708090;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.portfolio-section-redirect {
+  display: none;
+}
+
+#portfolio-link.active ~ .portfolio-section-redirect {
+  display: block;
+}
+
+.section-style {
+  text-decoration: none;
+  color: #708090;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.section-style:hover {
+  text-decoration: underline;
+  text-decoration-color: #c0c0c0;
+  text-underline-offset: 10px;
+  color: #dc143c;
+}
 
