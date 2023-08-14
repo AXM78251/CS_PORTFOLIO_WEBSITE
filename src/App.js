@@ -7,28 +7,11 @@ import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom
 
 import HomePage from "./HomePage";
 import Resume from "./ResumePage";
-import Contact from "./ContactPage";
 import CsPortfolio from "./CS-Portfolio";
 import AboutPage from "./AboutPage";
 
 function App() {
   return (
-    /*<div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>*/
     <Router>
       <header className = "parent-header">
         <div className = "image-div">
@@ -62,9 +45,6 @@ function App() {
               <li>
                 <NavLink to = "/resume" className = "link-style-nav">Resume</NavLink>
               </li>
-              <li>
-                <NavLink to = "/contact" className = "link-style-nav">Contact</NavLink>
-              </li>
             </ul>
           </nav>
         </div>
@@ -80,7 +60,6 @@ function App() {
           <Route path = "/about" element = {<AboutPage />} />
           <Route path = "/cs_portfolio" element = {<CsPortfolio/>} />
           <Route path = "/resume" element = {<Resume/>}/>
-          <Route path = "/contact" component = {<Contact/>} />
         </Routes>
       </div>
 

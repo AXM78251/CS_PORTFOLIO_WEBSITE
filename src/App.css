@@ -38,14 +38,16 @@
 }
 
 .list-div {
+  display: flex;
   margin-left: 7%;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-style {
   list-style-type: none;
   text-align: left;
   line-height: 35px;
-  /*margin-top: 100px;*/
 }
 
 .link-style-nav {
