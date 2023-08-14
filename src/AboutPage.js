@@ -10,7 +10,7 @@ function AboutPage() {
             </div>
             <div className = "info-about-me">
                 <div className = "info-child-img">
-                    <img src = {Me} width = "75%" alt = "photo of myself!"></img>
+                    <img src = {Me} width = "75%" alt = "myself!"></img>
                 </div>
                 <div className = "info-child">
                     <h1>

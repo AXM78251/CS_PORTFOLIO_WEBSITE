@@ -364,18 +364,27 @@ body {
 .class-cards-grid {
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
 }
 
 .class-card {
   border: 1px solid #e6f1f1;
   border-radius: 8px;
-  padding: 20px;
-  width: 400px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 325px;
+  height: 425px;
   background-color: #a3c2c2;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 4%;
+  position: relative;
+  justify-content: center;
 }
 
-.class-card-title {
+.class-card-main {
   font-size: 18px;
   font-weight: bold;
   color: #708090;
@@ -389,20 +398,34 @@ body {
   align-self: center;
 }
 
-.class-card-content h2 {
+.class-card-content h4 {
+  color: #e6f1f1;
+  margin: 5%;
+}
+
+.class-card-content h3 {
+  margin: 5%;
   color: #e6f1f1;
 }
 
-.class-card-content p {
-  font-size: 18px;
-  color: #e6f1f1;
+.class-card-footer {
+  border-top: 1px solid #708090;
+  width: 325px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.class-card-content hr {
-  margin-top: 25%;
+.class-card-footer h3 {
+  color: #e6f1f1;
+  text-align: center;
+  font-family: Montserrat;
 }
 
 .course-link-container {
+  position: relative;
+  bottom: 5px;
   display: flex;
   justify-content: center;
 }
@@ -410,11 +433,15 @@ body {
 .course-link {
   border: 1px solid #e6f1f1;
   border-radius: 8px;
-  width: 250px;
+  width: 200px;
   background-color: #708090;
+  text-align: center;
+  color: #e6f1f1;
+  font-family: Montserrat;
 }
 
 .course-link a {
   text-decoration: none;
+  color: inherit;
 }
 
