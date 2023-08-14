@@ -269,6 +269,7 @@ body {
   text-align: center;
   color: #dc143c;
   font-family: Montserrat;
+  margin-bottom: 2%;
 }
 
 .info-about-me {
@@ -333,7 +334,7 @@ body {
 }
 
 .portfolio-section-headers {
-  color: #708090;
+  color: #dc143c;
   text-align: center;
   font-family: Montserrat;
 }
@@ -358,5 +359,62 @@ body {
   text-decoration-color: #c0c0c0;
   text-underline-offset: 10px;
   color: #dc143c;
+}
+
+.class-cards-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.class-card {
+  border: 1px solid #e6f1f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 400px;
+  background-color: #a3c2c2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.class-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #708090;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.class-card-content {
+  align-self: center;
+  align-items: center;
+  align-self: center;
+}
+
+.class-card-content h2 {
+  color: #e6f1f1;
+}
+
+.class-card-content p {
+  font-size: 18px;
+  color: #e6f1f1;
+}
+
+.class-card-content hr {
+  margin-top: 25%;
+}
+
+.course-link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.course-link {
+  border: 1px solid #e6f1f1;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #708090;
+}
+
+.course-link a {
+  text-decoration: none;
 }
 
