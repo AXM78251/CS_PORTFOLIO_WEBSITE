@@ -24,18 +24,18 @@ function AboutPage() {
                             I was born and raised in San Diego, California and a little fun fact about myself is that my birthday is on Mexican Independence Day! 
                         </p>
                         <p>
-                            I am interested in front-end development, an area I've had the privilege of engaging with
+                            I am interested in full-stack development, an area I've had the privilege of engaging with
                             during my time as a software engineering intern at <a id = "modalai-link" href = "https://www.modalai.com/" target = "_blank" rel="noopener noreferrer"> ModalAI</a>.
-                            Some of my other interests include full-stack development, robotics, and electrical & embedded systems.
+                            Some of my other interests include robotics, and electrical systems.
                         </p>
                         <p>
-                            Outside of academia, my hobbies include music, I am self-taught in guitar and ukulele, and as of recently working out!
+                            Outside of academia, my hobbies include music, I am self-taught in guitar and ukulele, and as of recently, working out!
                         </p>
                     </h2>
                 </div>
             </div>
             <div className = "current-ocupation">
-                <h3>Friend</h3>
+                
             </div>
         </div>
     );

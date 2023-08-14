@@ -369,6 +369,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
+  margin-bottom: 3%;
 }
 
 .class-card {
@@ -445,5 +446,32 @@ body {
 .course-link a {
   text-decoration: none;
   color: inherit;
+}
+
+.website-main {
+  display: flex;
+  width: 100%;
+}
+
+.website-img-or-svg {
+  flex: 1;
+}
+
+.website-info {
+  flex: 1;
+}
+
+.website-info h1 {
+  text-align: center;
+  color: #708090;
+  font-family: Montserrat;
+  margin-top: 0%;
+}
+
+.website-info h2 {
+  font-family: Montserrat;
+  color: #708090;
+  font-size: 20px;
+  line-height: 130%;
 }
 

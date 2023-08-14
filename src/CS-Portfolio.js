@@ -281,6 +281,61 @@ function CS_Portfolio() {
                 <h1 className = "portfolio-section-headers">Personal Projects</h1>
                 <hr/>
             </div>
+            <div className = "website-main">
+                <div className = "website-info">
+                    <h1>
+                        Personal Portfolio
+                    </h1>
+                    <h2>
+                        <p>
+                            This was the first big front-end project I worked on during the summer of 2023. 
+                            I created this website with two main goals in mind: to showcase my different skills/experiences 
+                            and to expand my knowledge on front-end languages, design, and development. I learned everything I needed to know 
+                            through documentation and resources like google and stack overflow. I will continue to update this website 
+                            as I complete new projects and gain more experience.  
+                        </p>
+                    </h2>
+                </div>
+                <div className = "website-img-or-svg">
+
+                </div>
+            </div>
+            <div className = "website-main">
+                <div className = "website-img-or-svg">
+
+                </div>
+                <div className = "website-info">
+                    <h1>
+                        Anime Recommendation System
+                    </h1>
+                    <h2>
+                        <p>
+                            During the summer of 2022, I wanted to expand my knowledge on machine learning applications and 
+                            I was able to successfully create a basic anime recommendation system that relies on collaborative filtering 
+                            to provide reasonable anime recommendations for an anime title that is passed in as input by a user.
+                        </p>
+                    </h2>
+                </div>
+            </div>
+            <div className = "website-main">
+                <div className = "website-info">
+                    <h1>
+                        Movie Recommendation System
+                    </h1>
+                    <h2>
+                        <p>
+                            This was the first big front-end project I worked on during the summer of 2023. 
+                            I created this website with two main goals in mind: to showcase my different skills/experiences 
+                            and to expand my knowledge on front-end languages, design, and development. I learned everything I needed to know 
+                            through documentation and resources like google and stack overflow. I will continue to update this website 
+                            as I complete new projects and gain more experience.  
+                        </p>
+                    </h2>
+                </div>
+                <div className = "website-img-or-svg">
+
+                </div>
+            </div>
         </div>
     );
 }
