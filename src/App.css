@@ -533,4 +533,12 @@ body {
   width: 50%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .resume-title {
+    font-family: Montserrat;
+    color: #dc143c;
+    text-align: center;
+    width: 50%;
+  }
+}
 
