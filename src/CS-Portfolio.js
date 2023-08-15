@@ -306,7 +306,7 @@ function CS_Portfolio() {
                         check out the link below!
                     </h2>
                     <a href = "https://inst.eecs.berkeley.edu/~cs61c/sp23/" target = "_blank" rel = "noopener noreferrer">
-                        <img src = {cs61cLogo} alt = "cs61c-logo"/>
+                        <img src = {githubLogo} alt = "cs61c-logo"/>
                     </a>
                 </div>
                 <div className = "website-info">
