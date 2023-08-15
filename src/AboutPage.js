@@ -26,7 +26,7 @@ function AboutPage() {
                         <p>
                             I am interested in full-stack development, an area I've had the privilege of engaging with
                             during my time as a software engineering intern at <a id = "modalai-link" href = "https://www.modalai.com/" target = "_blank" rel="noopener noreferrer"> ModalAI</a>.
-                            Some of my other interests include robotics, and electrical systems.
+                            Some of my other interests include robotics and electrical systems.
                         </p>
                         <p>
                             Outside of academia, my hobbies include music, I am self-taught in guitar and ukulele, and as of recently, working out!

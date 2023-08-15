@@ -39,8 +39,8 @@ function HomePage() {
                 </div>
             </div>
             <div className = "spotify-playlist">
-                <h2>If you'd like....check out my spotify playlist below!</h2>
-                <iframe src="https://open.spotify.com/embed/playlist/3gkTnIG2dHkhcBCnxgcDc1?utm_source=generator"></iframe>
+                <h2>Check out my spotify playlist below!</h2>
+                <iframe title = "spotify-songs" src="https://open.spotify.com/embed/playlist/3gkTnIG2dHkhcBCnxgcDc1?utm_source=generator"></iframe>
             </div>
         </div>
     );
