@@ -4,6 +4,7 @@ import LinkedInLogo from "./images-and-videos/LI-In-Bug.png";
 import InstagramLogo from "./images-and-videos/Instagram_Glyph_Gradient.png";
 import GithubLogo from "./images-and-videos/github-mark.png";
 import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
+import { useEffect } from 'react';
 
 import HomePage from "./website-pages/HomePage";
 import Resume from "./website-pages/ResumePage";
@@ -11,6 +12,10 @@ import CsPortfolio from "./website-pages/CS-Portfolio";
 import AboutPage from "./website-pages/AboutPage";
 
 function App() {
+  useEffect(() => {
+    document.title = "Anthony Salinas Suarez"
+  }, [])
+
   return (
     <Router>
       <header className = "parent-header">
