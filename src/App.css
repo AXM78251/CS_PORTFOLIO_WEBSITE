@@ -232,17 +232,18 @@ body {
 
 .introduction {
   font-family: Montserrat;
-  color: #708090;
 }
 
 .introduction h1{
   text-align: center;
   margin-top: 0%;
+  color: #708090;
 }
 
 .introduction h2 {
   line-height: 35px;
   margin-bottom: 3%;
+  color:  #708090;
 }
 
 .spotify-playlist {
@@ -325,16 +326,19 @@ body {
 
 .coursework-section {
   width: 50%;
+  font-size: 20px;
 }
 
 .experience-section {
   width: 50%;
   margin-bottom: 5%;
+  font-size: 20px;
 }
 
 .personal-projects-section {
   width: 50%;
   margin-bottom: 4%;
+  font-size: 20px;
 }
 
 .portfolio-section-headers {
@@ -508,4 +512,25 @@ body {
 .movie-vid {
   width: 90%;
 }
+
+.main-resume-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-resume-page iframe {
+  width: 100%;
+  height: 800px;
+  border: 0;
+}
+
+.resume-title{
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #dc143c;
+  text-align: center;
+  width: 50%;
+}
+
 

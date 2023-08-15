@@ -1,4 +1,4 @@
-import Me from "./me.jpeg";
+import Me from "../images-and-videos/me.jpeg";
 
 function AboutPage() {
     return (

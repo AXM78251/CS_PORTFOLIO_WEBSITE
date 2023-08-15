@@ -1,13 +1,11 @@
-import animeVideo from "./anime-rec-showcase.mov"
-import movieVideo from "./movie-sys-showcase.mov"
-import githubLogo from "./github-mark.png"
-import cs61cLogo from "./61c-big-logo.png"
+import animeVideo from "../images-and-videos/anime-rec-showcase.mov"
+import movieVideo from "../images-and-videos/movie-sys-showcase.mov"
+import githubLogo from "../images-and-videos/github-mark.png"
+import cs61cLogo from "../images-and-videos/61c-big-logo.png"
 
 function CS_Portfolio() {
     return (
         <div className = "main-portfolio-page">
-            <div className = "portfolio-intro">
-            </div>
             <div className = "coursework-section" id = "coursework-sec">
                 <hr/>
                 <h1 className = "portfolio-section-headers">Relevant Coursework</h1>
@@ -53,7 +51,7 @@ function CS_Portfolio() {
                                 CS61B
                             </h4>
                             <h3>
-                                Skills: Data Structures, Git Versional Control, Java
+                                Skills: Data Structures, Git Version Control, Java
                             </h3>
                         </div>
                     </div>
@@ -291,7 +289,18 @@ function CS_Portfolio() {
                     </h2>
                     <h2>
                         <p>
-                            During this past summer, I had the privilege of interning at ModalAI as a software engineer. I was t
+                            This past summer, I had the privilege of interning at ModalAI as a software engineer. 
+                            I worked on VOXL Portal, a web user interface that allows for camera inspection 
+                            and debugging tools that are fully compatible with ModalAI's autonomous computing platform, VOXL. 
+                        </p>
+                        <p>
+                            During my time working with the VOXL Portal user interace, I was able to engage with various frameworks and protocols 
+                            such as WebSockets in javascript that allow for two-way interactive communication between the browser and server and Mongoose, 
+                            an embedded network server and network library written in C/C++. 
+                        </p>
+                        <p>
+                            With these tools, I was able to polish up some buggy features on the user interface as well as implement new features that customers 
+                            could use to their advantage when debugging their VOXL platform!
                         </p>
                     </h2>
                 </div>
@@ -306,7 +315,7 @@ function CS_Portfolio() {
                         check out the link below!
                     </h2>
                     <a href = "https://inst.eecs.berkeley.edu/~cs61c/sp23/" target = "_blank" rel = "noopener noreferrer">
-                        <img src = {githubLogo} alt = "cs61c-logo"/>
+                        <img src = {cs61cLogo} alt = "cs61c-logo"/>
                     </a>
                 </div>
                 <div className = "website-info">
@@ -314,15 +323,18 @@ function CS_Portfolio() {
                         uGSI @ UC Berkeley
                     </h1>
                     <h2 className = "project-date">
-                        Spring 2022 - Current
+                        Spring 2023 - Current
                     </h2>
                     <h2>
                         <p>
-                            This past spring semester I was appointed as an undergraduate student instructor (uGSI) for CS61C, the machine structures   
-                            course offered at the University of California, Berkeley. As a uGSI, my duties include staffing office hours throughout the week 
+                            This past spring, I was appointed as an undergraduate student instructor (uGSI) for CS61C, the machine structures   
+                            course offered at the University of California, Berkeley.  
+                        </p>
+                        <p>
+                            As a uGSI, my duties include staffing office hours throughout the week 
                             where students can come in for help on anything relating to the course, leading a weekly discussion section
                             that gives student the opportunity to consolidate their understanding of course content covered in the previous week, and other miscellanous tasks such
-                            as exam writing and exam proctoring. 
+                            as exam writing and exam proctoring.
                         </p>
                     </h2>
                 </div>
@@ -377,10 +389,13 @@ function CS_Portfolio() {
                         <p>
                             During the summer of 2022, I wanted to expand my knowledge on machine learning algorithms and applications and I was able to accomplish this via the 
                             creation of a simple anime recommendation system that relied on item-based collaborative filtering to provide myself with anime recommendations 
-                            on the basis of information collected from other users with similar preferences. This filter used two datasets, the first being my MAL dataset which contains 
+                            on the basis of information collected from other users with similar preferences.  
+                        </p>
+                        <p>
+                            This filter used two datasets, the first being my MAL dataset which contains 
                             all the anime I have watched and their respective rating and the second dataset is from Kaggle and contains information on user preference data from 
                             73,516 users on 12,294 anime. Under the hood, this filter identified the users with preference most similar to mine and used this to estimate potential ratings 
-                            for anime I am yet to watch. Using these predicted ratings, the system would then finally output the top anime I am most likely to enjoy. 
+                            for anime I am yet to watch. Using these predicted ratings, the system would then output the top unwatched anime I am most likely to enjoy.
                         </p>
                     </h2>
                 </div>
@@ -395,11 +410,17 @@ function CS_Portfolio() {
                     </h2>
                     <h2>
                         <p>
-                            This side project was also an extension of a machine learning algorithm that I implemented during the summer of 2022. This recommendation system relies on 
+                            This side project was also an application of machine learning that I implemented during summer 2022.
+                        </p>
+                        <p>
+                            This recommendation system relies on 
                             content-based filtering which uses movie features to recommend other similar movies that the user may like. In this case, the system takes the 
-                            user's favorite movie from 2006-2016 and the number of recommendations they'd like as input and then uses a cosine similarity hueristic to find the n 
-                            movies that are most similar to the user's favorite movie. This system relies on an IMDB dataset that contains information on the 1000 most popular movies 
-                            from 2006-2016. 
+                            user's favorite movie from 2006-2016 and the number of recommendations they'd like as input and then uses a cosine similarity heuristic to find the n 
+                            movies that are most similar to the user's favorite movie.
+                        </p>
+                        <p>
+                            This system relies on an IMDB dataset that contains information on the 1000 most popular movies 
+                            from 2006-2016.
                         </p>
                     </h2>
                 </div>

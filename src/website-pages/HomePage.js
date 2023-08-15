@@ -1,7 +1,7 @@
-import MachoPhoto from "./macho.jpg"
-import LunaPhoto from "./luna.jpeg"
-import CarlsbadFlowerFields from "./carlsbad.jpeg"
-import BabyTaylor from "./baby-taylor.jpeg"
+import MachoPhoto from "../images-and-videos/macho.jpg"
+import LunaPhoto from "../images-and-videos/luna.jpeg"
+import CarlsbadFlowerFields from "../images-and-videos/carlsbad.jpeg"
+import BabyTaylor from "../images-and-videos/baby-taylor.jpeg"
 
 function HomePage() {
     return (

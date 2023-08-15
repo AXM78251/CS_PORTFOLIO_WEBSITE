@@ -1,14 +1,14 @@
 import './App.css';
-import LogoImage from "./logo.jpeg";
-import LinkedInLogo from "./LI-In-Bug.png";
-import InstagramLogo from "./Instagram_Glyph_Gradient.png";
-import GithubLogo from "./github-mark.png";
+import LogoImage from "./images-and-videos/logo.jpeg";
+import LinkedInLogo from "./images-and-videos/LI-In-Bug.png";
+import InstagramLogo from "./images-and-videos/Instagram_Glyph_Gradient.png";
+import GithubLogo from "./images-and-videos/github-mark.png";
 import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
 
-import HomePage from "./HomePage";
-import Resume from "./ResumePage";
-import CsPortfolio from "./CS-Portfolio";
-import AboutPage from "./AboutPage";
+import HomePage from "./website-pages/HomePage";
+import Resume from "./website-pages/ResumePage";
+import CsPortfolio from "./website-pages/CS-Portfolio";
+import AboutPage from "./website-pages/AboutPage";
 
 function App() {
   return (
