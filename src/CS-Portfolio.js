@@ -1,3 +1,5 @@
+import myVideo from "./anime-rec-showcase.mov"
+
 function CS_Portfolio() {
     return (
         <div className = "main-portfolio-page">
@@ -302,7 +304,8 @@ function CS_Portfolio() {
             </div>
             <div className = "website-main">
                 <div className = "website-img-or-svg">
-
+                    <video muted loop = {false} className = "vid-elem" src = {myVideo} onMouseEnter = {event => event.target.play()} onMouseLeave = {event => {event.target.currentTime = 0; event.target.pause()}} type = "video/mov">
+                    </video>
                 </div>
                 <div className = "website-info">
                     <h1>
@@ -310,9 +313,12 @@ function CS_Portfolio() {
                     </h1>
                     <h2>
                         <p>
-                            During the summer of 2022, I wanted to expand my knowledge on machine learning applications and 
-                            I was able to successfully create a basic anime recommendation system that relies on collaborative filtering 
-                            to provide reasonable anime recommendations for an anime title that is passed in as input by a user.
+                            During the summer of 2022, I wanted to expand my knowledge on machine learning algorithms and applications and I was able to accomplish this via the 
+                            creation of a simple anime recommendation system that relied on item-based collaborative filtering to provide myself with anime recommendations 
+                            on the basis of information collected from other users with similar preferences. This filter used two datasets, the first being my MAL dataset which contains 
+                            all the anime I have watched and their respective rating and the second dataset is from Kaggle and contains information on user preference data from 
+                            73,516 users on 12,294 anime. Under the hood, this filter identified the users with preference most similar to mine and used this to estimate potential ratings 
+                            for anime I am yet to watch. Using these predicted ratings, the system would then finally output the top 5-10 anime I am most likely to enjoy. 
                         </p>
                     </h2>
                 </div>
