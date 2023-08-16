@@ -92,7 +92,13 @@ function App() {
 
       <footer className = "footer-contact-info">
         <div className = "contact-info">
-          <h4>&bull; Berkeley Email: anthonysalinas78251@berkeley.edu &bull; Personal Email: anthonysalinas78251@gmail.com &bull; Phone: 619.384.8022 &bull;</h4>
+          <h4>&bull; Berkeley Email: anthonysalinas78251@berkeley.edu &bull;&nbsp;&nbsp;&nbsp;</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>&bull; Personal Email: anthonysalinas78251@gmail.com &bull;&nbsp;&nbsp;&nbsp;</h4>
+        </div>
+        <div className = "contact-info">
+          <h4>&bull; Phone: 619.384.8022 &bull;</h4>
         </div>
       </footer>
     </Router>

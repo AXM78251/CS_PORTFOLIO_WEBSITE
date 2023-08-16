@@ -260,6 +260,7 @@ body {
   line-height: 35px;
   margin-bottom: 3%;
   color:  #708090;
+  font-size: 20px;
 }
 
 .spotify-playlist {
@@ -285,7 +286,7 @@ body {
 
 .about-separator {
   justify-self: center;
-  width: 50%;
+  width: 80%;
   text-align: center;
   color: #dc143c;
   font-family: Montserrat;
@@ -329,6 +330,7 @@ body {
   color: #708090;
   font-size: 20px;
   line-height: 130%;
+  font-weight: normal;
 }
 
 #eecs-link {
@@ -346,20 +348,17 @@ body {
 }
 
 .coursework-section {
-  width: 50%;
-  font-size: 20px;
+  width: 80%;
 }
 
 .experience-section {
-  width: 50%;
+  width: 80%;
   margin-bottom: 5%;
-  font-size: 20px;
 }
 
 .personal-projects-section {
-  width: 50%;
+  width: 80%;
   margin-bottom: 4%;
-  font-size: 20px;
 }
 
 .portfolio-section-headers {
@@ -440,7 +439,7 @@ body {
 
 .class-card-footer {
   border-top: 1px solid #708090;
-  width: 325px;
+  width: 75%;
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -518,6 +517,7 @@ body {
   color: #708090;
   font-size: 20px;
   line-height: 130%;
+  font-weight: normal;
 }
 
 .website-main-2 {
@@ -563,6 +563,7 @@ body {
   color: #708090;
   font-size: 20px;
   line-height: 130%;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
@@ -575,11 +576,24 @@ body {
   .info-about-me {
     flex-direction: column-reverse;
   }
+  .contact-info h4 {
+    margin: 0%;
+    text-align: center;
+  }
+  .footer-div-logos:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 980px) {
+  .class-cards-grid {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1280px) {
   .list-style {
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -604,6 +618,7 @@ body {
   }
   .portfolio-section-redirect {
     padding: 0%;
+    text-align: left;
   }
 }
 
@@ -634,11 +649,10 @@ body {
 }
 
 .resume-title{
+  width: 80%;
   font-family: Montserrat;
-  font-size: 20px;
   color: #dc143c;
   text-align: center;
-  width: 50%;
 }
 
 .polaroid-imgs-wrapper {
@@ -651,14 +665,5 @@ body {
   justify-content: center;
   width: 100%;
   margin-bottom: 0%;
-}
-
-@media only screen and (max-width: 1200px) {
-  .resume-title {
-    font-family: Montserrat;
-    color: #dc143c;
-    text-align: center;
-    width: 50%;
-  }
 }
 
