@@ -499,6 +499,10 @@ body {
   margin-top: 0%;
 }
 
+.gif-visuals {
+  width: 75%;
+}
+
 .website-info-1 {
   flex: 1;
 }

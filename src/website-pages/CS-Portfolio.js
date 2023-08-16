@@ -1,7 +1,7 @@
-import animeVideo from "../images-and-videos/anime-rec-showcase.mov"
-import movieVideo from "../images-and-videos/movie-sys-showcase.mov"
 import githubLogo from "../images-and-videos/github-mark.png"
 import cs61cLogo from "../images-and-videos/61c-big-logo.png"
+import animeGif from "../images-and-videos/anime-rec-showcase.gif"
+import movieGif from "../images-and-videos/movie-sys-showcase.gif"
 
 function CS_Portfolio() {
     return (
@@ -374,9 +374,9 @@ function CS_Portfolio() {
             <div className = "website-main-2">
                 <div className = "website-img-or-svg-2">
                     <h2>
-                        Hover over the video to see a demo of my anime recommendation system!
+                        Check out a quick demo of my anime recommendation system!
                     </h2>
-                    <video muted loop = {false} className = "anime-vid" src = {animeVideo} onMouseEnter = {event => event.target.play()} onMouseLeave = {event => {event.target.currentTime = 0; event.target.pause()}} type = "video/mov" />
+                    <img className = "gif-visuals" src = {animeGif} alt = "my anime recommendation system"/>
                 </div>
                 <div className = "website-info-2">
                     <h1>
@@ -426,9 +426,9 @@ function CS_Portfolio() {
                 </div>
                 <div className = "website-img-or-svg-1">
                     <h2>
-                        Hover over the video to see a demo of my movie recommendation system!
+                        Check out a quick demo of my movie recommendation system!
                     </h2>
-                    <video muted loop = {false} className = "movie-vid" src = {movieVideo} onMouseEnter = {event => event.target.play()} onMouseLeave = {event => {event.target.currentTime = 0; event.target.pause()}} type = "video/mov" />
+                    <img className = "gif-visuals" src = {movieGif} alt = "my movie recommendation system"/>
                 </div>
             </div>
         </div>
