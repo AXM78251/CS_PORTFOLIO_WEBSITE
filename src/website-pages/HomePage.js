@@ -16,21 +16,21 @@ function HomePage() {
                     Feel free to look around and explore to learn more about me and stay tuned for future updates to this website!
                 </h2>
             </div>
-            <div className = "polaroid-images">
-                <div className = "double-stacked">
+            <div className = "polaroid-imgs-wrapper">
+                <div className = "polaroid-imgs">
                     <div className = "polaroid-container">
                         <img src = {MachoPhoto} alt = "My dog: Macho"/>
                         <div className = "polaroid-caption"> Doggo 1: Macho</div>
                     </div>
-                    <div className = "polaroid-container">
-                        <img src = {LunaPhoto} alt = "My dog: Luna"/>
-                        <div className = "polaroid-caption"> Doggo 2: Luna </div>
-                    </div>
-                </div>
-                <div className = "double-stacked">
                     <div className = "polaroid-container flip-rotation-image">
                         <img src = {CarlsbadFlowerFields} alt = "Carlsbad flower fields!!!"/>
                         <div className = "polaroid-caption"> Carlsbad flower fields!!! </div>
+                    </div>
+                </div>
+                <div className = "polaroid-imgs">
+                    <div className = "polaroid-container">
+                        <img src = {LunaPhoto} alt = "My dog: Luna"/>
+                        <div className = "polaroid-caption"> Doggo 2: Luna </div>
                     </div>
                     <div className = "polaroid-container flip-rotation-image">
                         <img src = {BabyTaylor} alt = "My baby taylor guitar!!!"/>

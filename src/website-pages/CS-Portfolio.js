@@ -279,8 +279,8 @@ function CS_Portfolio() {
                 <h1 className = "portfolio-section-headers">Experience</h1>
                 <hr/>
             </div>
-            <div className = "website-main">
-                <div className = "website-info">
+            <div className = "website-main-1">
+                <div className = "website-info-1">
                     <h1>
                         ModalAI Internship
                     </h1>
@@ -304,12 +304,12 @@ function CS_Portfolio() {
                         </p>
                     </h2>
                 </div>
-                <div className = "website-img-or-svg">
+                <div className = "website-img-or-svg-1">
                     
                 </div>
             </div>
-            <div className = "website-main">
-                <div className = "website-img-or-svg">
+            <div className = "website-main-2">
+                <div className = "website-img-or-svg-2">
                     <h2>
                         If you are interested in the curriculum covered during the Spring 2023 semester, then please
                         check out the link below!
@@ -318,7 +318,7 @@ function CS_Portfolio() {
                         <img src = {cs61cLogo} alt = "cs61c-logo"/>
                     </a>
                 </div>
-                <div className = "website-info">
+                <div className = "website-info-2">
                     <h1>
                         uGSI @ UC Berkeley
                     </h1>
@@ -344,8 +344,8 @@ function CS_Portfolio() {
                 <h1 className = "portfolio-section-headers">Personal Projects</h1>
                 <hr/>
             </div>
-            <div className = "website-main">
-                <div className = "website-info">
+            <div className = "website-main-1">
+                <div className = "website-info-1">
                     <h1>
                         Personal Portfolio
                     </h1>
@@ -362,7 +362,7 @@ function CS_Portfolio() {
                         </p>
                     </h2>
                 </div>
-                <div className = "website-img-or-svg">
+                <div className = "website-img-or-svg-1">
                     <h2>
                         Check out the source code for my website below!
                     </h2>
@@ -371,14 +371,14 @@ function CS_Portfolio() {
                     </a>
                 </div>
             </div>
-            <div className = "website-main">
-                <div className = "website-img-or-svg">
+            <div className = "website-main-2">
+                <div className = "website-img-or-svg-2">
                     <h2>
                         Hover over the video to see a demo of my anime recommendation system!
                     </h2>
                     <video muted loop = {false} className = "anime-vid" src = {animeVideo} onMouseEnter = {event => event.target.play()} onMouseLeave = {event => {event.target.currentTime = 0; event.target.pause()}} type = "video/mov" />
                 </div>
-                <div className = "website-info">
+                <div className = "website-info-2">
                     <h1>
                         Anime Recommendation System
                     </h1>
@@ -400,8 +400,8 @@ function CS_Portfolio() {
                     </h2>
                 </div>
             </div>
-            <div className = "website-main">
-                <div className = "website-info">
+            <div className = "website-main-1">
+                <div className = "website-info-1">
                     <h1>
                         Movie Recommendation System
                     </h1>
@@ -424,7 +424,7 @@ function CS_Portfolio() {
                         </p>
                     </h2>
                 </div>
-                <div className = "website-img-or-svg">
+                <div className = "website-img-or-svg-1">
                     <h2>
                         Hover over the video to see a demo of my movie recommendation system!
                     </h2>

@@ -20,12 +20,12 @@ function App() {
     <Router>
       <header className = "parent-header">
         <div className = "image-div">
-          <NavLink to = "/" className = "link-style-nav" id = "home-link">
+          <NavLink to = "/" className = "home-redirect" id = "home-link">
             <img src = {LogoImage} width = "100%" alt = "My Logo"></img> 
           </NavLink>
         </div>
         <div className = "list-div">
-          <nav>
+          <nav className = "nav-container">
             <ul className = "list-style">
               <li>
                 <NavLink to = "/" className = "link-style-nav" id = "home-link">Home</NavLink>
@@ -92,19 +92,7 @@ function App() {
 
       <footer className = "footer-contact-info">
         <div className = "contact-info">
-          <h4>Berkeley Email: anthonysalinas78251@berkeley.edu</h4>
-        </div>
-        <div className = "contact-info">
-          <h4>|</h4>
-        </div>
-        <div className = "contact-info">
-          <h4>Personal Email: anthonysalinas78251@gmail.com</h4>
-        </div>
-        <div className = "contact-info">
-          <h4>|</h4>
-        </div>
-        <div className = "contact-info">
-          <h4>Phone: 619.384.8022</h4>
+          <h4>&bull; Berkeley Email: anthonysalinas78251@berkeley.edu &bull; Personal Email: anthonysalinas78251@gmail.com &bull; Phone: 619.384.8022 &bull;</h4>
         </div>
       </footer>
     </Router>
