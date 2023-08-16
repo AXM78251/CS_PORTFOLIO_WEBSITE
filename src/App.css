@@ -404,7 +404,7 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
-  width: 325px;
+  width: 300px;
   height: 425px;
   background-color: #a3c2c2;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -422,9 +422,7 @@ body {
 }
 
 .class-card-content {
-  align-self: center;
   align-items: center;
-  align-self: center;
 }
 
 .class-card-content h4 {
@@ -433,8 +431,8 @@ body {
 }
 
 .class-card-content h3 {
-  margin: 5%;
   color: #e6f1f1;
+  font-size: 100%;
 }
 
 .class-card-footer {
