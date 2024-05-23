@@ -18,18 +18,14 @@ function AboutPage() {
                     </h1>
                     <h2>
                         <p>
-                            Hello! I hope you had the opportunity to look around! My name is Anthony Salinas Suarez and I am currently a senior 
-                            majoring in Electrical Engineering & Computer Sciences (EECS) at the
-                            <a id = "eecs-link" href = "https://eecs.berkeley.edu/" target = "_blank" rel="noopener noreferrer"> University of California, Berkeley</a>.
+                            Hello! I hope you had the opportunity to look around! My name is Anthony Salinas Suarez and I am a graduate from 
+                            the <a id = "eecs-link" href = "https://eecs.berkeley.edu/" target = "_blank" rel="noopener noreferrer"> University of California, Berkeley </a>
+                            with a major in Electrical Engineering & Computer Sciences (EECS).
                             I was born and raised in San Diego, California and a little fun fact about myself is that my birthday is on Mexican Independence Day! 
                         </p>
                         <p>
-                            I am interested in full-stack development, an area I've had the privilege of engaging with
-                            during my time as a software engineering intern at <a id = "modalai-link" href = "https://www.modalai.com/" target = "_blank" rel="noopener noreferrer"> ModalAI</a>.
-                            Some of my other interests include robotics and electrical systems.
-                        </p>
-                        <p>
-                            Outside of academia, my hobbies include music, I am self-taught in guitar and ukulele, and as of recently, working out!
+                            I am open to any and all work opportunities ranging from full-stack development to cybersecurity! Please do not hesitate to reach out via email at 
+                            anthonysalinas78251@berkeley.edu!
                         </p>
                     </h2>
                 </div>

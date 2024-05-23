@@ -108,6 +108,15 @@ body {
   margin-top: 2%;
 }
 
+.redirections {
+  text-decoration: none;
+  color: #708090;
+}
+
+.redirections:visited {
+  color: 
+}
+
 .separator {
   margin: 0 10%;
 }

@@ -1,4 +1,4 @@
-import resumePdf from "../resume-folder/resume-update.pdf"
+import resumePdf from "../resume-folder/anthony-final-resume.pdf"
 
 function Resume() {
     return (

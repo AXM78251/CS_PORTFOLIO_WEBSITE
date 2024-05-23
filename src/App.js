@@ -37,9 +37,6 @@ function App() {
                 <NavLink to = "/cs_portfolio" className = "link-style-nav" id = "portfolio-link">Portfolio</NavLink>
                 <ul className = "portfolio-section-redirect">
                   <li>
-                    <a href = "#coursework-sec" className = "section-style">Coursework</a>
-                  </li>
-                  <li>
                     <a href = "#experience-sec" className = "section-style">Experience</a>
                   </li>
                   <li>
