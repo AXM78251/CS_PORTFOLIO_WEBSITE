@@ -1,7 +1,4 @@
 import githubLogo from "../images-and-videos/github-mark.png"
-import cs61cLogo from "../images-and-videos/61c-big-logo.png"
-import animeGif from "../images-and-videos/anime-rec-showcase.gif"
-import movieGif from "../images-and-videos/movie-sys-showcase.gif"
 
 function CS_Portfolio() {
     return (
